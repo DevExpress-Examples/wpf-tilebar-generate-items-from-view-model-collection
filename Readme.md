@@ -10,7 +10,7 @@
 * **[MainWindow.xaml](./CS/TBExample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/TBExample/MainWindow.xaml))**
 * [MainWindow.xaml.cs](./CS/TBExample/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/TBExample/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to: Bind TileBar to a Collection of Items
+# WPF TileBar - Create MVVM-based tile navigation
 
 
 To use [TileBar](https://documentation.devexpress.com/WPF/115595/Controls-and-Libraries/Navigation-Controls/Tile-Bar) according to the MVVM pattern, you can generate TileBarItems from a collection. To accomplish this task, assign a collection to the **TileBar.ItemsSource** property. 
