@@ -7,14 +7,14 @@
 
 # WPF TileBar – Bind Items to a ViewModel Collection (MVVM)
 
-This example binds the [`TileBar`](https://documentation.devexpress.com/WPF/115595/Controls-and-Libraries/Navigation-Controls/Tile-Bar) control to a view model collection. [`TileBar`](https://documentation.devexpress.com/WPF/115595/Controls-and-Libraries/Navigation-Controls/Tile-Bar) items are generated from a view model collection and grouped visually. Some tiles display nested items in a flyout.
+The [`TileBar`](https://documentation.devexpress.com/WPF/115595/Controls-and-Libraries/Navigation-Controls/Tile-Bar) control allows you to create a Windows 10-inspired navigation UI. 
 
 ![Bind Items to a ViewModel Collection](./Images/tilebar-view.jpg)
 
-Use the [`TileBar`](https://documentation.devexpress.com/WPF/115595/Controls-and-Libraries/Navigation-Controls/Tile-Bar) control with MVVM when you need to:
+Use the `TileBar` control with MVVM when you need to:
 
 - Define a dynamic navigation UI based on data rather than hard-coded items.
-- Bind a flat or hierarchical data structure to a [`TileBar`](https://documentation.devexpress.com/WPF/115595/Controls-and-Libraries/Navigation-Controls/Tile-Bar).
+- Bind a flat or hierarchical data structure to a `TileBar`.
 - Apply styles, group headers, commands, and flyout content from your data model.
 
 ## Implementation Details
@@ -40,7 +40,7 @@ public class Item : BindableBase {
 
 ### Item Styling and Grouping
 
-The following code example uses the `ItemContainerStyle` property to configure each tile’s appearance and behavior:
+The following code example uses the `ItemContainerStyle` property to configure tile appearance and behavior:
 
 ```xaml
 <Style TargetType="{x:Type dxnav:TileBarItem}" x:Key="TileBarItemStyleBase">
