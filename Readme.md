@@ -14,7 +14,7 @@ The [`TileBar`](https://documentation.devexpress.com/WPF/115595/Controls-and-Lib
 Use the `TileBar` control with MVVM when you need to:
 
 - Define a dynamic navigation UI based on data rather than hard-coded items.
-- Bind a flat or hierarchical data structure to a `TileBar`.
+- Bind a `TileBar` to a flat or hierarchical data structure.
 - Apply styles, group headers, commands, and flyout content from your data model.
 
 ## Implementation Details
